@@ -1,5 +1,5 @@
 FROM python:3 
-ENV PYTHONBUFFERED = 1
+ENV PYTHONUNBUFFERED = 1
 RUN mkdir /firstapp
 WORKDIR /firstapp
 ADD . /firstapp
